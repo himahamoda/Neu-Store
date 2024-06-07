@@ -102,7 +102,8 @@ export default function Homepage() {
       </div>
     </div>
     <div className='mt-5 d-flex justify-content-center'>
-      <Link to={`/products`}>  <button className="descoverr  " ><i class="fa-brands fa-twitter"></i> descover more</button> </Link>
+      <Link to={`/products`}>  <button className="descoverr  " > descover more     <img width="20" height="20" src="https://img.icons8.com/ios/50/arrow--v1.png" alt="arrow--v1"/>
+</button> </Link>
 
     </div>
 
