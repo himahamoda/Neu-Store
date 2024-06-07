@@ -52,7 +52,7 @@ export default function NAv() {
 
 {/*             <li><a href="/">Home</a></li>
  */}
-           <Link to={`/`} className='text-black' > <li>Home</li> </Link>
+           <Link to={`/`} className='text-black me-3' > <li>Home</li> </Link>
 
            <Link to={`/products`} className='text-black' > <li>Gallery</li> </Link>
 
