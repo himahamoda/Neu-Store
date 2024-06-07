@@ -41,7 +41,7 @@ export default function ProductDetails() {
 
     const handleClick = () => {
         // window.open(`https://wa.link/hs6joo?text=I%20want%20to%20order%20${post.title}%20for%20${post.price}%20${post.img}`);
-        window.open(`https:wa.me/+201066643685?text=I%20want%20to%20order%20${post.title}for%20${post.price}%20${post.img}`);
+        window.open(`https://wa.link/hs6joo`);
     };
 
     const handleImageClose = () => {
