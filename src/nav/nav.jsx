@@ -50,9 +50,10 @@ export default function NAv() {
             <img src={logo} width={100} height={100} className='' />        </div>
           <ul className={`nav-links ${isNavLinksActive? 'active' : ''}`}>
 
-            <li><a href="/">Home</a></li>
+{/*             <li><a href="/">Home</a></li>
+ */}
+           <Link to={`/`} className='text-black' > <li>Home</li> </Link>
 
-            <li><a href="products">Gallery</a></li>
            <Link to={`/products`} className='text-black' > <li>Gallery</li> </Link>
 
 
