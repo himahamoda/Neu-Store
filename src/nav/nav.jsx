@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../Assets/HN__3.png'
+import { Link } from 'react-router-dom';
 
 
 export default function NAv() {
@@ -52,6 +53,8 @@ export default function NAv() {
             <li><a href="/">Home</a></li>
 
             <li><a href="products">Gallery</a></li>
+           <Link to={`/products`} className='text-black' > <li>Gallery</li> </Link>
+
 
           </ul>
           <div className="menus text-light ">
