@@ -241,18 +241,21 @@ nav .nav-links {
   display: flex;
   font-weight: 500;
 }
+nav .nav-links li a:hover {
+  color: #908965;
+}
 
-nav .nav-links li a {
+.nav-linkss{
+  color: #7f7f90;
+}
+
+nav .nav-links li {
   color: #7f7f90;
   font-size: 17px;
-  margin-right: 30px;
+  margin-right: 45px;
   position: relative;
   right: 0px;
   transition: var(--animation-duration);
-}
-
-nav .nav-links li a:hover {
-  color: #908965;
 }
 
 nav .nav-links li a::before {
