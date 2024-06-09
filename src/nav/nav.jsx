@@ -48,14 +48,11 @@ export default function NAv() {
           <div className="logo rounded-3 ">
 
             <img src={logo} width={100} height={100} className='' />        </div>
-          <ul className={`nav-links ${isNavLinksActive? 'active' : ''}`}>
+           <ul className={`nav-links me-auto ${isNavLinksActive? 'active' : ''}`}>
 
-{/*             <li><a href="/">Home</a></li>
- */}
-           <Link to={`/`} className='text-black me-5' > <li>Home</li> </Link>
+          <Link to={`/`} className='  text-black ' > <li className='nav-linkss'>Home</li> </Link>
 
-           <Link to={`/products`} className='text-black me-5' > <li>Gallery</li> </Link>
-
+           <Link to={`/products`} className='text-black ' > <li className='nav-linkss'>Gallery</li> </Link>
 
           </ul>
           <div className="menus text-light ">
