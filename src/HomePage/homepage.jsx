@@ -88,7 +88,8 @@ export default function Homepage() {
           <h2></h2>
           <p>Neu <span>Now</span></p>
         </div>
-        <div className="gallery-photos">
+   <Link to={`/products`}>       
+     <div className="gallery-photos">
           {orders?.map((order, index) => (
             <div className="image pizza" key={index}>
               <img src={order.img} alt="meal-1" />
@@ -98,7 +99,8 @@ export default function Homepage() {
               </div>
             </div>
           ))}
-        </div>
+        </div> 
+   </Link> 
       </div>
     </div>
     <div className='mt-5 d-flex justify-content-center'>
