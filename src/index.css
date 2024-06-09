@@ -1080,52 +1080,7 @@ font-size: medium;
   border-radius: 20px;
 }
 /*products derails end  */
-
-/* .filter-container label {
-  margin-right: 10px;
-}
-
-.filter-container select {
-  margin-right: 20px;
-}
-
-.filter-container span {
-  margin-right: 10px;
-}
-
-.product-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.product-list li {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.product-list li:last-child {
-  border-bottom: none;
-} */
-
- 
-/* .picture {
-  
-  display: flex;
-  
-  width: 400px;
-  height: 600px;
-}  */
-
-/* .rightside{
-  margin-left: 250px;
-} */
-
-/* products details  */
-
-/*  */
 /* products details */
-
 .enlarged-image-container {
   position: fixed;
   top: 0;
@@ -1139,107 +1094,20 @@ font-size: medium;
   z-index: 1000;
 }
 
-.enlarged-image-container.enlarged-image {
-  max-width: 50%;
-  max-height: 50%;
-  object-fit: cover;
+.enlarged-image{
+  width: 80vh;
+  height: 80vh;
 }
 
 .close-btn {
   position: absolute;
   top: 20px;
   right: 0px;
-  left: 300px;
+  left: 80%;
   background-color: transparent;
   border: none;
-  color: #fff;
-  font-size: 24px;
+  color: #ffffff;
+  font-size: 35px;
   cursor: pointer;
 }
-
-
-
-
-/* .title {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.title h1 {
-  color: white;
-  font-weight: normal;
-  font-size: 24px;
-  font-family: avenir next,avenir,sans-serif;
-}
-
-.list-container {
-  border: 2px solid #bababa;
-  border-radius: 10px;
-}
-
-.list-container .cdk-virtual-scroll-content-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.details {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: 'Nunito Sans', sans-serif;
-  margin-top: 15px;
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-}
-
-.info p {
-  margin: 0;
-}
-
-.list-group-item-even {
-  background: #282a37;
-}
-
-.list-group-item-odd {
-  background: #fff;
-}
-
-.list-group-item-even, .list-group-item-odd {
-  border-bottom: 1px solid #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.list-group-item-even .number {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.list-group-item-even .avatar img {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  border: 1px solid #fff;
-}
-
-.list-group-item-odd .number {
-  color: #000;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.list-group-item-odd .avatar img {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  border: 1px solid #000;
-} */
 
