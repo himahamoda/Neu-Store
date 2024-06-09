@@ -47,7 +47,7 @@ export default function NAv() {
         <div className="container ">
           <div className="logo rounded-3 ">
 
-            <img src={logo} width={100} height={100} className='' />        </div>
+     <Link to={`/`}>      <img src={logo} width={100} height={100} className='' /> </Link>        </div>
            <ul className={`nav-links me-auto ${isNavLinksActive? 'active' : ''}`}>
 
           <Link to={`/`} className='  text-black ' > <li className='nav-linkss'>Home</li> </Link>
