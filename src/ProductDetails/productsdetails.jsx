@@ -57,8 +57,8 @@ export default function ProductDetails() {
             <div className="row">
                 < div className="col-md-7 ">
                     <Grid
-                        columnCount={3}
-                        rowCount={Math.ceil(post?.img?.length / 4)}
+                         columnCount={post?.img?.length <= 2 ? 2 : 3}
+                        rowCount={Math.ceil(post?.img?.length / (post?.img?.length <= 2 ? 2 : 3))}
                         columnWidth={380}
                         rowHeight={480}
                         height={500}
