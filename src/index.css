@@ -134,7 +134,7 @@ h6 {
   color: #ffffff;
 }
 
-.dark-mode nav {
+.dark-mode nav  {
   background-color: #000000;
   color: #ffffff ;
 }
@@ -142,6 +142,16 @@ h6 {
   background-color: #000000;
   color: #ffffff ;
 }
+
+.dark-mode .header  nav{
+  background-color: #000000;
+  color: #ffffff ;
+}
+.dark-mode .header{
+  background-color: #000000;
+
+}
+
 .dark-mode nav .nav-links.active {
   background-color: #000000;
 }
@@ -212,6 +222,78 @@ color: wheat;
 }
 
 /* Start Nav */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.nav-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+
+.header nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.71, 0.92, 0.14, 1.25);
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header nav li {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.header nav li:last-child {
+  margin-bottom: 0;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header nav.active {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+}
+
+
 nav {
   background-color: #fff;
   padding: 0;
@@ -240,11 +322,8 @@ nav .logo a::after {
 nav .nav-links {
   display: flex;
   font-weight: 500;
+  
 }
-nav .nav-links li a:hover {
-  color: #908965;
-}
-
 .nav-linkss{
   color: #7f7f90;
 }
@@ -256,6 +335,10 @@ nav .nav-links li {
   position: relative;
   right: 0px;
   transition: var(--animation-duration);
+}
+
+nav .nav-links li a:hover {
+  color: #908965;
 }
 
 nav .nav-links li a::before {
@@ -1003,10 +1086,8 @@ footer .contact-details ul li a {
 
 .gallery2 .gallery2-photos {
   display: flex;
-  /* flex-direction: ; */
   flex-wrap: wrap;
   gap: 20px;
-  /* height: 1165px; */
   height: 100%;
 
 }
@@ -1079,8 +1160,8 @@ font-size: medium;
   width: 200px;
   border-radius: 20px;
 }
-/*products derails end  */
-/* products details */
+
+
 .enlarged-image-container {
   position: fixed;
   top: 0;
@@ -1110,4 +1191,10 @@ font-size: medium;
   font-size: 35px;
   cursor: pointer;
 }
+
+
+
+
+
+
 
