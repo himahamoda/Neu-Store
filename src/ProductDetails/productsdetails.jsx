@@ -62,7 +62,7 @@ export default function ProductDetails() {
                         columnWidth={380}
                         rowHeight={480}
                         height={500}
-                        width={370}
+                        width={360}
                     >
                         {({ rowIndex, columnIndex, style }) => {
                             const index = rowIndex * 4 + columnIndex;
