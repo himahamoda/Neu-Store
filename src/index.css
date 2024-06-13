@@ -296,7 +296,11 @@ color: wheat;
   cursor: pointer;
   color: #000000;
 }
-
+.founder p {
+  color: #7c5d5d;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+}
 
 nav {
   background-color: #fff;
