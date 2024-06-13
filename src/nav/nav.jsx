@@ -95,7 +95,7 @@
 
                   <div className="col-md-8 ">
 
-                    <p>
+                    <p className=" text-center">
                       Nada, an experienced professional in the fashion industry, has launched her own women's clothing brand called NEU. With a background as a merchandiser in a renowned garment factory, Nada has a keen eye for quality and detail. She decided to start her own brand to bring a unique touch to women's fashion. Her first collection features exquisite linen fabrics, known for their lightweight and breathable qualities. Nada's expertise is evident in the distinctive and elegant designs, setting NEU apart in the market as a brand that combines comfort with style.</p>
                     
                   </div>
