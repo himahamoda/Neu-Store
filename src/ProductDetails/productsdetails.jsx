@@ -78,6 +78,11 @@ export default function ProductDetails() {
                             );
                         }}
                     </Grid>
+                      <div className="scroller">
+                    <h2 className="scrolerr" >scroll to right </h2>
+                    <img className="scrolerr" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/hanger.png" alt="hanger"/>                 
+                    </div>
+                    
                 </div>
                 <div className="col-md-5 ">
                     <h1>{post.title}</h1>
