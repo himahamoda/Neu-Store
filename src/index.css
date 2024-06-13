@@ -151,6 +151,10 @@ h6 {
   background-color: #000000;
 
 }
+.dark-mode .scroller h2{
+color: white;
+
+}
 
 .dark-mode nav .nav-links.active {
   background-color: #000000;
