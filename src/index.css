@@ -91,8 +91,7 @@ h6 {
 
 
 /* Track */
-::-webkit-scrollbar-track {
-}
+::-webkit-scrollbar-track {}
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -119,13 +118,13 @@ h6 {
 }
 
 .main-title p {
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
 
 .main-title p span {
   color: #000000;
-  
+
 }
 
 /* Dark Mode */
@@ -134,27 +133,31 @@ h6 {
   color: #ffffff;
 }
 
-.dark-mode nav  {
+.dark-mode nav {
   background-color: #000000;
-  color: #ffffff ;
-}
-.dark-mode nav i{
-  background-color: #000000;
-  color: #ffffff ;
+  color: #ffffff;
 }
 
-.dark-mode .header  nav{
+.dark-mode nav i {
   background-color: #000000;
-  color: #ffffff ;
+  color: #ffffff;
 }
-.dark-mode .header{
+
+.dark-mode .header nav {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode .header {
   background-color: #000000;
 
 }
-.dark-mode .scroller h2{
-color: white;
+
+.dark-mode .scroller h2 {
+  color: white;
 
 }
+
 
 .dark-mode nav .nav-links.active {
   background-color: #000000;
@@ -170,8 +173,9 @@ color: white;
 .dark-mode header .header-content .btn-group .btn-video::after {
   color: #ffffff !important;
 }
+
 .dark-mode .main-title span {
-color: wheat;
+  color: wheat;
 }
 
 
@@ -248,7 +252,13 @@ color: wheat;
   margin-left: 20px;
 }
 
+/* /////////////////////////// */
+nav.active {
+  overflow-y: auto;
+  height: 100vh;
+}
 
+/* //////////////////////////////// */
 .header nav {
   position: fixed;
   top: 0;
@@ -265,13 +275,14 @@ color: wheat;
   list-style: none;
   margin: 0;
   padding: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .header nav li {
-  margin-left: 0;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -290,17 +301,19 @@ color: wheat;
 
 .close-button {
   position: absolute;
-  top: 20px;
+  top: 2px;
   right: 20px;
-  font-size: 24px;
-  cursor: pointer;
+  font-size: 34px;
+
   color: #000000;
 }
+
 .founder p {
   color: #7c5d5d;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 400;
 }
+
 
 nav {
   background-color: #fff;
@@ -330,9 +343,10 @@ nav .logo a::after {
 nav .nav-links {
   display: flex;
   font-weight: 500;
-  
+
 }
-.nav-linkss{
+
+.nav-linkss {
   color: #7f7f90;
 }
 
@@ -420,7 +434,8 @@ body:has(#chefs:target) li a[href="#chefs"] {
     padding: 15px;
   }
 }
- .close-btn {
+
+.close-btn {
   display: block;
 }
 
@@ -429,7 +444,7 @@ body:has(#chefs:target) li a[href="#chefs"] {
     position: relative;
     left: 145px;
   }
-} 
+}
 
 
 /* Navigation */
@@ -441,14 +456,17 @@ main {
   align-items: center;
   padding: 2px;
 }
+
 .ttt2 {
   font-size: medium;
   font-family: 'Courier New', Courier, monospace;
 }
+
 .ttt {
   color: #ffffff;
-  
+
 }
+
 main i {
   color: #ffffff;
 }
@@ -491,7 +509,7 @@ header {
   position: relative;
   background-color: #ffffff;
   background-image: url(./Assets/Header/OIP\ \(1\).jpg);
-  
+
   width: 100%;
   background-size: cover;
   margin: auto;
@@ -510,7 +528,7 @@ header .header-content {
 }
 
 header .header-content h2 {
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
   color: #000000;
 }
@@ -665,7 +683,7 @@ header .header-image img:hover {
 /* Start Chefs */
 .chefs {
   background-color: #ffffff;
-font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   padding: var(--main-padding);
 }
 
@@ -735,8 +753,8 @@ font-family: 'Courier New', Courier, monospace;
 
 .chefs .chefs-cards .card .social-box {
   background-color: #ffffff;
-padding: 0;
-width: 20px;
+  padding: 0;
+  width: 20px;
   border-radius: 3px;
   position: absolute;
   top: 30px;
@@ -774,7 +792,7 @@ width: 20px;
 .gallery .gallery-photos {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   gap: 20px;
   height: 600px;
   border-radius: 4cqw;
@@ -821,7 +839,7 @@ width: 20px;
   transition: background-color 0.3s ease;
 }
 
-.descoverr{
+.descoverr {
   background-color: #916301;
   color: #ffffff;
   border: none;
@@ -832,17 +850,17 @@ width: 20px;
 
 }
 
-.scroller img{
+.scroller img {
 
   margin-left: 150px;
 }
 
-.scrolerr{
+.scrolerr {
   padding-top: 0;
   font-size: 20px;
- margin-left: 110px;
- text-decoration: underline;
- color: rgba(176, 150, 55, 0.3);
+  margin-left: 110px;
+  text-decoration: underline;
+  color: rgba(176, 150, 55, 0.3);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -908,9 +926,7 @@ width: 20px;
 /* Start Footer */
 footer {
   padding: 20px 0;
-  /* background-image: linear-gradient(rgba(136, 136, 136, 0.6), #0009),
-    url(../src//Assets/textured-metal-background.jpg); */
-    background-color: #908965;
+  background-color: #908965;
 
   color: #ffffff;
   background-size: contain;
@@ -977,17 +993,7 @@ footer .subscription .subscription-info p {
   margin: 10px 0;
 }
 
-/* footer .subscription .subscription-info .subscription-form {
-  margin: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-}
 
-footer .subscription .subscription-info .subscription-form input {
-  padding: 10px;
-  flex-grow: 1;
-} */
 
 footer .subscription .subscription-info .subscription-form .btn-subscription {
   background-color: #ffffff;
@@ -996,9 +1002,7 @@ footer .subscription .subscription-info .subscription-form .btn-subscription {
   padding: 20px;
   margin: auto;
   width: 300px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+
 }
 
 footer .subscription .quick-links ul {
@@ -1007,15 +1011,17 @@ footer .subscription .quick-links ul {
   flex-wrap: wrap;
   gap: 10px;
 }
-.touch h3{
+
+.touch h3 {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
-.touch li{
+
+.touch li {
   display: flex;
-justify-content: center;
-margin-right: 50px;
-padding: 5px ;
+  justify-content: center;
+  margin-right: 50px;
+  padding: 5px;
 }
 
 footer .subscription .quick-links li {
@@ -1112,8 +1118,9 @@ footer .contact-details ul li a {
   height: 100%;
 
 }
+
 .gallery2 h2 {
-font-size: medium;
+  font-size: medium;
 }
 
 
@@ -1172,7 +1179,7 @@ font-size: medium;
 
 
 /* producta details start */
-.Order{
+.Order {
   background-color: #916301;
   color: #ffffff;
   border: none;
@@ -1196,7 +1203,7 @@ font-size: medium;
   z-index: 1000;
 }
 
-.enlarged-image{
+.enlarged-image {
   width: 80vh;
   height: 80vh;
 }
@@ -1212,10 +1219,3 @@ font-size: medium;
   font-size: 35px;
   cursor: pointer;
 }
-
-
-
-
-
-
-
